@@ -128,6 +128,7 @@ header .container {
     border-bottom-right-radius: 10px;
     padding-left: 15px;
 }
+
 .advertisement .buttons .next {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -141,7 +142,7 @@ header .container {
     padding: 200px 0;
 }
 
-.out-work .section-title-gradient{ 
+.out-work .section-title-gradient {
     margin-bottom: 100px;
 }
 
@@ -162,7 +163,7 @@ header .container {
     padding-top: 200px;
 }
 
-.out-work .out-work-content .content-card .card-title{
+.out-work .out-work-content .content-card .card-title {
     font-family: Futura PT;
     font-size: 28px;
     font-weight: 400;
@@ -172,13 +173,13 @@ header .container {
     margin-bottom: 10px;
 }
 
-.out-work .out-work-content .content-card .card-description{
+.out-work .out-work-content .content-card .card-description {
     font-family: Futura PT;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     text-align: left;
-    
+
     color: var(--color-green-light);
     margin-bottom: 30px;
 }
@@ -193,4 +194,274 @@ header .container {
 
 .out-work .out-work-content .content-card .images .image-bottom img {
     width: 100%;
+}
+
+/* ================== slide start */
+
+.slide {
+    padding: 148px 0;
+    background-color: var(--color-dark);
+    position: relative;
+    height: 930px;
+    overflow: hidden;
+}
+
+.slide .title-image {
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.slide .slider {
+    position: relative;
+    padding-left: 500px;
+}
+
+.slide .slider .position-slider {
+    position: absolute;
+}
+
+.slider .position-slider .slider-list {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.slider .position-slider .list-bottom {
+    margin-top: 160px;
+    padding-left: 360px;
+}
+
+.slider .position-slider .slider-list .slider-card {
+    width: 450px;
+}
+
+.slider .position-slider .slider-list .slider-card-title {
+    font-family: Futura PT;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+
+    color: var(--color-white);
+    margin-bottom: 30px;
+}
+
+.slider .position-slider .slider-list .slider-card-description {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+
+    color: var(--color-gray);
+}
+
+/* ==================== calc */
+
+.calc {
+    padding: 200px 0;
+    background-color: var(--color-green);
+    position: relative;
+}
+
+.calc .position-bg {
+    position: absolute;
+    right: 0;
+    top: 194px;
+}
+
+.calc .section-title-gradient {
+    text-align: left;
+}
+
+.calc .choose-pocket {
+    margin-top: 100px;
+}
+
+.calc .choose-pocket .pocket-title {
+    font-family: Futura PT;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+
+    color: var(--color-white);
+    margin-bottom: 60px;
+}
+
+.calc .choose-pocket .pocket-cards {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card {
+    width: 410px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top {
+    padding: 40px 40px 80px;
+    background-color: var(--color-dark2);
+    background-image: url(../images/card-bg.png);
+}
+
+.calc .pocket-bottom-cards .pocket-cards .pocket-card .card-top {
+    padding: 40px;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.calc .pocket-bottom-cards .pocket-cards .pocket-card .card-top .card-choose {
+    margin-bottom: 0;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose span {
+    font-family: Futura PT;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+    color: var(--color-white);
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose span span {
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-choose input {
+    width: 26px;
+    height: 26px;
+
+    accent-color: var(--color-green-light);
+}
+
+.calc .choose-pocket .pocket-cards .pocket-card .card-top .card-description {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+
+    color: var(--color-green-light);
+}
+
+.calc .choose-pocket .button-cash {
+    padding: 31px 40px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: var(--color-dark2);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.calc .choose-pocket .button-cash input {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+
+}
+
+.calc .choose-pocket .button-cash label {
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+    color: var(--color-white);
+
+}
+
+.calc .number-rooms {
+    margin-top: 100px;
+}
+
+.calc .number-rooms .number-rooms-title {
+    font-family: Futura PT;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    color: var(--color-white);
+    margin-bottom: 40px;
+}
+
+.calc .number-rooms .total-area {
+    font-family: Futura PT;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: left;
+    color: var(--color-green-light);
+    margin-bottom: 30px;
+}
+
+.calc .number-rooms .total-area span {
+    color: var(--color-white);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.calc .number-rooms .total-area span::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-green-light);
+}
+
+.calc .number-rooms .inputs {
+    margin-bottom: 40px;
+}
+
+.calc .number-rooms .inputs .inputs-range {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: Futura PT;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: var(--color-green-light);
+    margin-bottom: 10px;
+}
+
+.calc .number-rooms .inputs .range-input {
+    width: 100%;
+}
+
+.calc .number-rooms .inputs .range-input input {
+    width: 100%;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+}
+
+.calc .number-rooms .inputs .range-input input::-webkit-slider-runnable-track {
+    height: 2px;
+    background-color: var(--color-green-light);
+}
+
+.calc .number-rooms .inputs .range-input input::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: var(--color-green-light);
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-white);
+    border-radius: 50%;
+    margin-top: -9px;
 }
